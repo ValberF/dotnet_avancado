@@ -39,9 +39,9 @@ public class Date
         {
             if (typeDate == FORMATO_12H)
             {
-                string amPm = this.hour < 12 ? "AM" : "PM";
+                string period = this.hour < 12 ? "AM" : "PM";
                 int hour12h = this.hour % 12 == 0 ? 12 : this.hour % 12;
-                Console.WriteLine($"{this.day}/{this.month}/{this.year} {hour12h}:{this.minute}:{this.second} {amPm}");
+                Console.WriteLine($"{this.day}/{this.month}/{this.year} {hour12h}:{this.minute}:{this.second} {period}");
             }
             else
             {
