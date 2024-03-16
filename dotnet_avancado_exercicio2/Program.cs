@@ -62,7 +62,12 @@ catch (FormatException)
     Console.WriteLine("Entrada inválida. Por favor, insira um número.");
 }
 
-//Questão 5
+//QUESTÃO 4
+ServicoFabrica<MeuServico> fabrica = new ServicoFabrica<MeuServico>();
+MeuServico instancia = fabrica.NovaInstancia();
+instancia.Executar();
+
+//QUESTÃO 5
 Triangulo<int> trianguloInt = new Triangulo<int>(
             new Ponto<int>(0, 0, 0),
             new Ponto<int>(1, 0, 0),
@@ -106,10 +111,6 @@ static void ExibirTriangulo<T>(Triangulo<T> triangulo)
     Console.WriteLine($"Ponto 2: ({triangulo.P2.X}, {triangulo.P2.Y}, {triangulo.P2.Z})");
     Console.WriteLine($"Ponto 3: ({triangulo.P3.X}, {triangulo.P3.Y}, {triangulo.P3.Z})");
 }
-
-ServicoFabrica<MeuServico> fabrica = new ServicoFabrica<MeuServico>();
-MeuServico instancia = fabrica.NovaInstancia();
-instancia.Executar();
 
 enum Exercicio
 {

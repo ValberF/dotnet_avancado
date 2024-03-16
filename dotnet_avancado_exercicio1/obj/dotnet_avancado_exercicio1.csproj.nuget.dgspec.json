@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/home/valber-francisco-santos/dotnet_avancado/dotnet_avancado_exercicio1/dotnet_avancado_exercicio1.csproj": {}
+    "C:\\Users\\valber\\Desktop\\Work\\dotnet_avancado\\dotnet_avancado_exercicio1\\dotnet_avancado_exercicio1.csproj": {}
   },
   "projects": {
-    "/home/valber-francisco-santos/dotnet_avancado/dotnet_avancado_exercicio1/dotnet_avancado_exercicio1.csproj": {
+    "C:\\Users\\valber\\Desktop\\Work\\dotnet_avancado\\dotnet_avancado_exercicio1\\dotnet_avancado_exercicio1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/valber-francisco-santos/dotnet_avancado/dotnet_avancado_exercicio1/dotnet_avancado_exercicio1.csproj",
+        "projectUniqueName": "C:\\Users\\valber\\Desktop\\Work\\dotnet_avancado\\dotnet_avancado_exercicio1\\dotnet_avancado_exercicio1.csproj",
         "projectName": "dotnet_avancado_exercicio1",
-        "projectPath": "/home/valber-francisco-santos/dotnet_avancado/dotnet_avancado_exercicio1/dotnet_avancado_exercicio1.csproj",
-        "packagesPath": "/home/valber-francisco-santos/.nuget/packages/",
-        "outputPath": "/home/valber-francisco-santos/dotnet_avancado/dotnet_avancado_exercicio1/obj/",
+        "projectPath": "C:\\Users\\valber\\Desktop\\Work\\dotnet_avancado\\dotnet_avancado_exercicio1\\dotnet_avancado_exercicio1.csproj",
+        "packagesPath": "C:\\Users\\valber\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\valber\\Desktop\\Work\\dotnet_avancado\\dotnet_avancado_exercicio1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/valber-francisco-santos/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\valber\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -48,12 +50,30 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.15, 7.0.15]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[7.0.15, 7.0.15]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.15, 7.0.15]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.15, 7.0.15]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.115/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

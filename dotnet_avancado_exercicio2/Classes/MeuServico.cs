@@ -7,6 +7,6 @@ public class MeuServico : IServico
 {
     public void Executar()
     {
-        Console.WriteLine("Serviço executado!");
+        Console.WriteLine("\nServiço executado!");
     }
 }
