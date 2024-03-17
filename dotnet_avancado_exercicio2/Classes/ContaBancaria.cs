@@ -1,6 +1,6 @@
-using DotnetAvancadoExercicio1.Exceptions;
+using DotnetAvancadoExercicio2.Exceptions;
 
-namespace DotnetAvancadoExercicio1.Classes;
+namespace DotnetAvancadoExercicio2.Classes;
 
 public class ContaBancaria
 {

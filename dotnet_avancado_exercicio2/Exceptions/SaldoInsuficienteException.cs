@@ -1,4 +1,4 @@
-namespace DotnetAvancadoExercicio1.Exceptions;
+namespace DotnetAvancadoExercicio2.Exceptions;
 
 public class SaldoInsuficienteException : Exception
 {

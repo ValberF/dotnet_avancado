@@ -1,4 +1,4 @@
-namespace DotnetAvancadoExercicio1.Structs;
+namespace DotnetAvancadoExercicio2.Structs;
 
 public struct Ponto<T>
 {

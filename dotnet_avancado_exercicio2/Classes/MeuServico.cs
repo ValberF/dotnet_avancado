@@ -1,7 +1,7 @@
 
-using DotnetAvancadoExercicio1.Interfaces;
+using DotnetAvancadoExercicio2.Interfaces;
 
-namespace DotnetAvancadoExercicio1.Classes;
+namespace DotnetAvancadoExercicio2.Classes;
 
 public class MeuServico : IServico
 {

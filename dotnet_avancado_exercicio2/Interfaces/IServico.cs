@@ -1,4 +1,4 @@
-namespace DotnetAvancadoExercicio1.Interfaces;
+namespace DotnetAvancadoExercicio2.Interfaces;
 
 public interface IServico
 {

@@ -1,6 +1,6 @@
-﻿using DotnetAvancadoExercicio1.Classes;
-using DotnetAvancadoExercicio1.Exceptions;
-using DotnetAvancadoExercicio1.Structs;
+﻿using DotnetAvancadoExercicio2.Classes;
+using DotnetAvancadoExercicio2.Exceptions;
+using DotnetAvancadoExercicio2.Structs;
 
 // QUESTÃO 1
 try
